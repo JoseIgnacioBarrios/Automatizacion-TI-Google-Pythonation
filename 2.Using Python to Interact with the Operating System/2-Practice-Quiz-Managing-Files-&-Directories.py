@@ -1,6 +1,7 @@
 
 # Pregunta 1
-# The create_python_script function creates a new python script in the current working directory, adds the line of comments to it declared  by the 'comments' variable, and returns the size of the new file. Fill in the gaps to create a script called "program.py".
+# The create_python_script function creates a new python script in the current working directory, adds the line of comments to it declared 
+#by the 'comments' variable, and returns the size of the new file. Fill in the gaps to create a script called "program.py".
 
 
 def create_python_script(filename):
@@ -20,7 +21,8 @@ print(create_python_script("program.py"))
 
 
 # Pregunta 2
-# The new_directory function creates a new directory inside the current working directory, then creates a new empty file inside the new directory, and returns the list of files in that directory. Fill in the gaps to create a file "script.py" in the directory "PythonPrograms". 
+# The new_directory function creates a new directory inside the current working directory, then creates a new empty file inside the new directory,
+# and returns the list of files in that directory. Fill in the gaps to create a file "script.py" in the directory "PythonPrograms". 
 
 
 import os
@@ -62,7 +64,8 @@ def new_directory(directory, filename):
 
 
 # Pregunta 4
-# The file_date function creates a new file in the current working directory, checks the date that the file was modified, and returns just the date portion of the timestamp in the format of yyyy-mm-dd. Fill in the gaps to create a file called "newfile.txt" and check the date that it was modified.
+# The file_date function creates a new file in the current working directory, checks the date that the file was modified, and returns just the date 
+#portion of the timestamp in the format of yyyy-mm-dd. Fill in the gaps to create a file called "newfile.txt" and check the date that it was modified.
 
 
 import os
@@ -85,7 +88,8 @@ def file_date(filename):
 
 
 # Pregunta 5
-# The parent_directory function returns the name of the directory that's located just above the current working directory. Remember that '..' is a relative path alias that means "go up to the parent directory". Fill in the gaps to complete this function.
+# The parent_directory function returns the name of the directory that's located just above the current working directory. Remember
+# that '..' is a relative path alias that means "go up to the parent directory". Fill in the gaps to complete this function.
 
 
 import os
